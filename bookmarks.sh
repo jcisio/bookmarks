@@ -747,7 +747,9 @@ bookmarks ()
 #  MAIN SCRIPT
 #===============================================================================
 _bookmarks_support readfile                     # read the bookmark file
+if [ -r "$BBM_MC_HOTLISTFILE" ] ; then
 _bookmarks_support mc_hotlist                   # renew the MC directory hotlist
+fi
 
 complete -F _bookmarks_completion bl            # tab completion command bm
 complete -F _bookmarks_completion bm            # tab completion command bm
