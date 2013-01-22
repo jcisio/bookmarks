@@ -8,16 +8,7 @@
 #
 #   DESCRIPTION:  DIRECTORY BOOKMARKS FOR BASH
 #
-#       OPTIONS:  ---
 #  REQUIREMENTS: Bash 4.0+ (associative arrays)
-#          BUGS:  ---
-#         NOTES: This work was inspired by bashDirB by Ira Chayut
-#                (http://www.dirb.info/bashDirB).
-#        AUTHOR: Dr. Fritz Mehner (fgm), mehner@fh-swf.de
-#       COMPANY: FH Südwestfalen, Iserlohn
-#       CREATED: 13.09.2010 16:28:43 CEST
-#      REVISION: $Id: bookmarks.sh,v 1.39 2012/04/08 13:42:57 mehner Exp $
-#       VERSION: see variable BBM_Version below
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by

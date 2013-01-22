@@ -1,7 +1,4 @@
-This is my clone of http://lug.fh-swf.de/shell/#bookmarks
-------------------------------------------------------------------------------
-
-BOOKMARKS FOR THE BASH            Version 1.6                    April 08 2012
+BOOKMARKS FOR THE BASH
 ------------------------------------------------------------------------------
 
 The file bookmarks.sh provides a bookmark management system for the Bash
@@ -91,14 +88,8 @@ To occasionally resolve a bookmark without exporting a variable use bm:
 
  diff ./file `bm vm`/file
 
-Please note the backticks: bm is a shell function.
-
-
 CREDIT
 ------
 This work was inspired by bashDirB by Ira Chayut (http://www.dirb.info/bashDirB).
-
-AUTHOR
-------
-Dr. Fritz Mehner (fgm), fritz.mehner@fh-swf.de
+This is a fork of Dr. Fritz Mehner (fgm)'s work http://lug.fh-swf.de/shell/
 
