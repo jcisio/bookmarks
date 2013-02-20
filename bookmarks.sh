@@ -742,12 +742,12 @@ if [ -r "$BBM_MC_HOTLISTFILE" ] ; then
 _bookmarks_support mc_hotlist                   # renew the MC directory hotlist
 fi
 
-complete -F _bookmarks_completion bl            # tab completion command bm
+complete -F _bookmarks_completion bl            # tab completion command bl
 complete -F _bookmarks_completion bm            # tab completion command bm
 complete -F _bookmarks_completion g             # tab completion command g
 complete -F _bookmarks_completion p             # tab completion command p
 complete -F _bookmarks_completion r             # tab completion command r
 
 complete -F _hotlist_completion   gh            # mc : tab completion command gh
-complete -F _hotlist_completion   hl            # mc : tab completion command gh
+complete -F _hotlist_completion   hl            # mc : tab completion command hl
 
