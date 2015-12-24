@@ -33,6 +33,7 @@ declare -A BBM_BOOKMARK=()                      # bookmark list
 declare -A BBM_TIMESTAMP=()                     # timestamp list
 declare -A BBM_MC_HOTLIST=()                    # MC hotlist
 declare -a BBM_MC_HOTLIST_ORDER=()              # MC hotlist
+declare -A BBM_PATTERN="$HOME/workspace/www/DIRECTORY/www"
 
 #===============================================================================
 #  FUNCTION DEFINITIONS
@@ -382,6 +383,8 @@ g ()
         printf "\"%s\" \"%s\" \"%s\"\n" "$1" "${BBM_TIMESTAMP[$1]}" \
         "${BBM_BOOKMARK[$1]}" >> "$BBM_BOOKMARKFILE"
         cd "${BBM_BOOKMARK[$1]}"
+      elif [ -d ${BBM_PATTERN/DIRECTORY/$1} ] ; then
+        cd ${BBM_PATTERN/DIRECTORY/$1}
       else
         printf "No bookmark '%s'. Still in '%s'.\n" "${1}" "$PWD"
       fi
